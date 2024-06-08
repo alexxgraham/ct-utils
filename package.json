@@ -1,0 +1,24 @@
+{
+  "name": "@ag108/ct-utils",
+  "license": "MIT",
+  "private": false,
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts",
+    "lint": "tsc",
+    "release": "pnpm run build && pnpm run lint && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.5",
+    "@types/react": "^18.3.3",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
