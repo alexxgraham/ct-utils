@@ -1,4 +1,4 @@
-import { CommandListButtonProps } from 'types/main';
+import { CommandListButtonProps } from './types/main';
 import { cn } from '~/utils';
 
 import { EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from '~/state';

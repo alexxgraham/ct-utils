@@ -10,7 +10,7 @@ export interface SetDispatchTabProps {
 }
 
 export interface BreadcrumbDispatchProps {
-	pkgName: PACKAGES; backTab: Tab; setTab: DispatchAction<Tab>; library: string; module?: string
+	pkgName: PACKAGES; backTab: Tab; setTab: TabDispatchAction; library: string; module?: string
 }
 
 export interface LinkDispatchProps {

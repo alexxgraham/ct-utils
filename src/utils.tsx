@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { MainState } from '~/state';
 
-import { LinkDispatchProps, SetDispatchTabProps, BreadcrumbDispatchProps } from 'types/dispatch';
+import { LinkDispatchProps, SetDispatchTabProps, BreadcrumbDispatchProps } from './types/dispatch';
 
 export const cn = (...inputs: ClassValue[]) => {
 	return twMerge(clsx(inputs));

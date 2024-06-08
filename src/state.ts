@@ -1,4 +1,4 @@
-import { Tab } from '../types/main';
+import { Tab } from './types/main';
 
 import { ClosedEmoteState, ClosedFileState, ClosedMathState, ClosedPaintState, ClosedTimeState } from './state._utils';
 
