@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.3
+
+### Patch Changes
+
+- 0904559: fix: .d.ts locations and tsconfig paths
+
 ## 1.0.2
 
 ### Patch Changes
