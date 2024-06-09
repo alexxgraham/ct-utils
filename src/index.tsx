@@ -1,7 +1,7 @@
-import { CommandListButtonProps } from './types/main';
-import { cn } from '~/utils';
+import { CommandListButtonProps } from '~/types/main';
+import { cn } from './utils';
 
-import { EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from '~/state';
+import { EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from './state';
 
 export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: CommandListButtonProps) => {
 	if (pkgStuff.kind === 'single') {
@@ -44,5 +44,5 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 	}
 };
 
-export { MainState, EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from '~/state'
-export { cn, PackageBreadcrumbs, PackageLinks, PackageIndexLink } from '~/utils'
+export { MainState, EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from './state'
+export { cn, PackageBreadcrumbs, PackageLinks, PackageIndexLink } from './utils'

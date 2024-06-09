@@ -1,9 +1,9 @@
 import { type ClassValue, clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-import { MainState } from '~/state';
+import { MainState } from './state';
 
-import { LinkDispatchProps, BreadcrumbDispatchProps, TabDispatchAction } from './types/dispatch';
+import { LinkDispatchProps, BreadcrumbDispatchProps, TabDispatchAction } from '../types/dispatch';
 
 export const cn = (...inputs: ClassValue[]) => {
 	return twMerge(clsx(inputs));
