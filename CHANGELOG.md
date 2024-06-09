@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.4
+
+### Patch Changes
+
+- b50c332: fix: "BreadcrumbDispatchProps to use PACKAGES_Common, !PACKAGES" -- (allow for more common names of packages in breadcrumbs)
+
 ## 1.0.3
 
 ### Patch Changes
