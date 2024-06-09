@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { MainState } from '~/state';
 
-import { LinkDispatchProps, SetDispatchTabProps, BreadcrumbDispatchProps } from './types/dispatch';
+import { LinkDispatchProps, BreadcrumbDispatchProps, TabDispatchAction } from './types/dispatch';
 
 export const cn = (...inputs: ClassValue[]) => {
 	return twMerge(clsx(inputs));
@@ -45,6 +45,6 @@ export const PackageLinks = ({ setTab, pkgName, backTab, libName, modules }: Lin
 		);
 }
 
-export const PackageIndexLink = ({setTab}: SetDispatchTabProps) => {
+export const PackageIndexLink = ({setTab}: {setTab: TabDispatchAction}) => {
 	return <button className='text-muted hover:text-accent' onClick={() => setTab(MainState)}>{`\u003c`}</button>;
 } 

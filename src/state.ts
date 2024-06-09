@@ -34,7 +34,7 @@ export const MathIndexState: Tab = {
 export const TimeIndexState: Tab = {
 	main: Closed,
 	math: ClosedMathState,
-	time: { index: true, insert: Closed },
+	time: { index: true, relative: Closed, absolute: Closed, special: Closed, custom: Closed },
 	file: ClosedFileState,
 	paint: ClosedPaintState,
 	emote: ClosedEmoteState,
@@ -44,7 +44,7 @@ export const FileIndexState: Tab = {
 	main: Closed,
 	math: ClosedMathState,
 	time: ClosedTimeState,
-	file: { index: true, image: Closed },
+	file: { index: true, image: Closed, pdf: Closed, other: Closed },
 	paint: ClosedPaintState,
 	emote: ClosedEmoteState,
 };

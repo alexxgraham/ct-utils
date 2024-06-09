@@ -4,7 +4,7 @@ import { cn } from '~/utils';
 import { EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from '~/state';
 
 export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: CommandListButtonProps) => {
-	if (pkgStuff.specialKind === 'single') {
+	if (pkgStuff.kind === 'single') {
 		return (
 			<li>
 				{' '}
@@ -15,7 +15,7 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			</li>
 		);
 	}
-	if (pkgStuff.specialKind === 'double') {
+	if (pkgStuff.kind === 'double') {
 		return (
 			<li>
 				{' '}
@@ -26,7 +26,7 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			</li>
 		);
 	}
-	if (pkgStuff.specialKind === 'multi') {
+	if (pkgStuff.kind === 'multi') {
 		const multiWord = 'colors';
 		return (
 			<li>

@@ -11,9 +11,9 @@ export const ClosedMathState = {
     algorithm: Closed,
 }
 
-export const ClosedTimeState = { index: Closed, insert: Closed }
+export const ClosedTimeState = { index: Closed, relative: Closed, absolute: Closed, special: Closed, custom: Closed }
 
-export const ClosedFileState = { index: Closed, image: Closed }
+export const ClosedFileState = { index: Closed, image: Closed, pdf: Closed, other: Closed }
 
 export const ClosedPaintState = { index: Closed, red: Closed, blue: Closed, green: Closed, yellow: Closed, magenta: Closed, cyan: Closed }
 

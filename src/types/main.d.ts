@@ -11,6 +11,14 @@ interface MathTabs {
 	algorithm: boolean;
 }
 
+interface DatetimeTabs {
+	index: boolean;
+	absolute: boolean;
+	relative: boolean;
+	special: boolean;
+	custom: boolean;
+}
+
 interface PaintTabs {
 	index: boolean;
 	red: boolean;
@@ -19,6 +27,13 @@ interface PaintTabs {
 	yellow: boolean;
 	magenta: boolean;
 	cyan: boolean;
+}
+
+interface FilesysTabs {
+	index: boolean;
+	image: boolean;
+	pdf: boolean;
+	other: boolean;
 }
 
 interface EmoteTabs {
@@ -35,24 +50,20 @@ interface EmoteTabs {
 export interface Tab {
 	main: boolean;
 	math: MathTabs;
-	time: {
-		index: boolean;
-		insert: boolean;
-	};
-	file: {
-		index: boolean;
-		image: boolean;
-	};
+	time: DatetimeTabs;
+	file: FilesysTabs;
 	paint: PaintTabs;
 	emote: EmoteTabs;
 }
 
 export interface PackageItems {
+	kind: 'single' | 'double' | 'multi';
 	name?: string;
 	doubleName?: string[];
+	
 	singleOpt?: 'math' | 'filesys';
 	doubleOpt?: 'datetime' | 'symbols';
-	specialKind: 'single' | 'double' | 'multi';
+	
 	singleClass?: string;
 	doubleClass?: string[];
 	multiClass?: string[string][];
