@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.2
+
+### Patch Changes
+
+- eb91bbe: fixed issue: "Type 'SetDispatchTabProps' is not assignable to type 'DispatchAction<Tab>'"
+
 ## 1.0.1
 
 ### Patch Changes
