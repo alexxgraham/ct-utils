@@ -6,7 +6,7 @@ export type DispatchAction<T> = Dispatch<SetStateAction<T>>;
 export type TabDispatchAction = DispatchAction<Tab>;
 
 export interface BreadcrumbDispatchProps {
-	pkgName: PACKAGES; backTab: Tab; setTab: TabDispatchAction; library: string; module?: string
+	pkgName: PACKAGES_Common; backTab: Tab; setTab: TabDispatchAction; library: string; module?: string
 }
 
 export interface LinkDispatchProps {

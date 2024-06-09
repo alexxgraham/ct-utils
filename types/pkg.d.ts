@@ -1,5 +1,6 @@
 // Available Mono Packages
 export type PACKAGES = 'math' | 'datetime' | 'filesys' | 'txtpaint' | 'symbols';
+export type PACKAGES_Common = 'math' | 'date & time' | 'attachments' | 'colors' | 'symbol & emoticon';
 
 // Available Package Libraries
 export type LIBRARIES =
