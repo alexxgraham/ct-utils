@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.12
+
+### Patch Changes
+
+- bde9bb0: fixed some missing main style classes
+
 ## 1.0.11
 
 ### Patch Changes
