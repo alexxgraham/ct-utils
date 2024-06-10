@@ -30,4 +30,8 @@
 	&_place-items-center {
 		place-items: center;
 	}
+
+	&_shrink-0 {
+		flex-shrink: 0;
+	}
 }

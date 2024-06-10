@@ -8,7 +8,18 @@
 		&.text-accent:hover {
 			color: $accent;
 		}
-
+		&.text-light-blue:hover {
+			color: $light_blue;
+		}
+		&.text-cyan:hover {
+			color: $cyan;
+		}
+		&.text-red:hover {
+			color: $red;
+		}
+		&.text-yellow:hover {
+			color: $yellow;
+		}
 		&.ct-utils_text-colors {
 			&:hover {
 				&:first-child {

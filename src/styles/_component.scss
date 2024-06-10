@@ -49,7 +49,11 @@ $xl-radius: 1rem;
 		border-radius: $lg-radius;
 	}
 
+	&_rounded-3xl {
+		border-radius: 1.5rem;
+	}
+
 	&_border-top-2 {
-		border-top: 2px;
+		border-top: 0.125rem;
 	}
 }

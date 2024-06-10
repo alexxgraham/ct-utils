@@ -67,6 +67,7 @@ export type UtilClasses =
 	| 'ct-utils_h-15rem'
 	| 'ct-utils_h-8-75rem'
 	| 'ct-utils_h-3rem'
+	| 'ct-utils_h-2-5rem'
 	| 'ct-utils_w-15rem'
 	//
 	// Main
