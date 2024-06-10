@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.14
+
+### Patch Changes
+
+- 45b473b: fixed CommandListButtonProps to have correct hoverClass prop type: UtilClassValues
+
 ## 1.0.13
 
 ### Patch Changes
