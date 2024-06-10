@@ -1,5 +1,5 @@
 import { PACKAGES, LIBRARIES } from './pkg';
-import { UtilClasses } from './styles';
+import { UtilClasses, UtilClassValues } from './styles';
 
 interface MathTabs {
 	index: boolean;
@@ -65,15 +65,15 @@ export interface PackageItems {
 	singleOpt?: 'math' | 'filesys';
 	doubleOpt?: 'datetime' | 'symbols';
 
-	singleClass: UtilClasses[];
+	singleClass: UtilClassValues;
 	doubleClass: {
-		main: UtilClasses[];
-		secondary: UtilClasses[];
+		main: UtilClassValues;
+		secondary: UtilClassValues;
 	};
 	multiClass: {
-		main: UtilClasses[];
-		secondary: UtilClasses[];
-		colors: UtilClasses;
+		main: UtilClassValues;
+		secondary: UtilClassValues;
+		colors: UtilClassValues;
 	};
 }
 
