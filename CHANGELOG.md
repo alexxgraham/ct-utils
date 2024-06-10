@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.10
+
+### Patch Changes
+
+- da53596: fixed PackageItems interface, had the wrong style class prop types
+
 ## 1.0.9
 
 ### Patch Changes
