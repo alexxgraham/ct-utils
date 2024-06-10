@@ -1,0 +1,66 @@
+.ct-utils_text-accent {
+  color: #f7f7f7;
+}
+.ct-utils_text-muted {
+  color: #aaaaaa;
+}
+.ct-utils_text-destructive {
+  color: #c52a4e;
+}
+.ct-utils_text-muted {
+  color: #aaaaaa;
+}
+
+.ct-utils_inherit {
+  text-transform: inherit;
+}
+.ct-utils_uppercase {
+  text-transform: uppercase;
+}
+.ct-utils_capitalize {
+  text-transform: capitalize;
+}
+.ct-utils_lowercase {
+  text-transform: lowercase;
+}
+
+.ct-utils_outline-none {
+  outline: 0;
+}
+.ct-utils_gap-x-2 {
+  column-gap: 0.5rem;
+}
+.ct-utils_pad-top-2 {
+  padding-top: 0.5rem;
+}
+.ct-utils_pad-x-4 {
+  padding-inline: 1rem;
+}
+.ct-utils_h-8-75rem {
+  height: 8.75rem;
+}
+.ct-utils_overflow-scroll {
+  overflow: scroll;
+}
+
+.ct-utils_flex {
+  display: flex;
+}
+.ct-utils_inline-block {
+  display: inline-block;
+}
+.ct-utils_flex-column {
+  flex-direction: column;
+}
+.ct-utils_items-start {
+  align-items: flex-start;
+}
+
+.ct-utils_hover.underline:hover {
+  text-decoration: underline;
+}
+.ct-utils_hover.text-accent:hover {
+  color: #f7f7f7;
+}
+
+/*# sourceMappingURL=styles.css.map */

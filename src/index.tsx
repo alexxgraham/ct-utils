@@ -1,7 +1,8 @@
 import { CommandListButtonProps } from '~/types/main';
-import { cn } from './utils';
 
 import { EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from './state';
+import './styles.css';
+import { cn } from './utils';
 
 export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: CommandListButtonProps) => {
 	if (pkgStuff.kind === 'single') {
@@ -20,8 +21,10 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={pkgStuff.doubleClass?.[0]}>
-					<span className={pkgStuff.doubleClass?.[1]}>{pkgStuff.doubleName?.[0]}</span> <span className={pkgStuff.doubleClass?.[1]}>&</span> <span className={pkgStuff.doubleClass?.[1]}>{pkgStuff.doubleName?.[1]}</span>
+				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={cn(pkgStuff.doubleClass?.main)}>
+					<span className={cn(pkgStuff.doubleClass?.secondary)}>{pkgStuff.doubleName?.[0]}</span>
+					<span className={cn(pkgStuff.doubleClass?.secondary)}>&</span>
+					<span className={cn(pkgStuff.doubleClass?.secondary)}>{pkgStuff.doubleName?.[1]}</span>
 				</button>
 			</li>
 		);
@@ -32,17 +35,13 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(PaintIndexState)} className={pkgStuff.multiClass?.[0]}>
-					{multiWord.split('').map((char, i) => (
-						<span key={i} className={cn(pkgStuff.multiClass?.[2][i], pkgStuff.multiClass?.[1])}>
-							{char}
-						</span>
-					))}
+				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass?.main)}>
+					<span className={cn(pkgStuff.multiClass?.first, pkgStuff.multiClass?.secondary)}>{multiWord.charAt(0)}</span>
 				</button>
 			</li>
 		);
 	}
 };
 
-export { MainState, EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from './state'
-export { cn, PackageBreadcrumbs, PackageLinks, PackageIndexLink } from './utils'
+export { MainState, EmoteIndexState, FileIndexState, MathIndexState, PaintIndexState, TimeIndexState } from './state';
+export { cn, PackageBreadcrumbs, PackageLinks, PackageIndexLink } from './utils';

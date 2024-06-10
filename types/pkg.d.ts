@@ -35,6 +35,5 @@ export type LIBRARIES =
 	| 'objects'
 	| 'hearts'
 	| 'flags'
-	| 'more...'
+	| 'more...';
 	//
-;

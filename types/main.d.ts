@@ -1,4 +1,5 @@
 import { PACKAGES, LIBRARIES } from './pkg';
+import { UtilClasses } from './styles';
 
 interface MathTabs {
 	index: boolean;
@@ -60,15 +61,27 @@ export interface PackageItems {
 	kind: 'single' | 'double' | 'multi';
 	name?: string;
 	doubleName?: string[];
-	
+
 	singleOpt?: 'math' | 'filesys';
 	doubleOpt?: 'datetime' | 'symbols';
-	
-	singleClass?: string;
-	doubleClass?: string[];
-	multiClass?: string[string][];
+
+	singleClass: UtilClasses;
+	doubleClass: {
+		main: UtilClasses;
+		secondary: UtilClasses;
+	};
+	multiClass: {
+		main: UtilClasses;
+		secondary: UtilClasses;
+
+		first: UtilClasses;
+		second: UtilClasses;
+		third: UtilClasses;
+		fourth: UtilClasses;
+		fifth: UtilClasses;
+	};
 }
 
 export type PackageLibraries = { name: LIBRARIES; tabState: Tab }[];
 
-export type CommandListButtonProps = { index: number; pkgStuff: PackageItems; hoverClass: string; setTab: TabDispatchAction }
+export type CommandListButtonProps = { index: number; pkgStuff: PackageItems; hoverClass: UtilClasses; setTab: TabDispatchAction };
