@@ -65,20 +65,15 @@ export interface PackageItems {
 	singleOpt?: 'math' | 'filesys';
 	doubleOpt?: 'datetime' | 'symbols';
 
-	singleClass: UtilClasses;
+	singleClass: UtilClasses[];
 	doubleClass: {
-		main: UtilClasses;
-		secondary: UtilClasses;
+		main: UtilClasses[];
+		secondary: UtilClasses[];
 	};
 	multiClass: {
-		main: UtilClasses;
-		secondary: UtilClasses;
-
-		first: UtilClasses;
-		second: UtilClasses;
-		third: UtilClasses;
-		fourth: UtilClasses;
-		fifth: UtilClasses;
+		main: UtilClasses[];
+		secondary: UtilClasses[];
+		colors: UtilClasses;
 	};
 }
 

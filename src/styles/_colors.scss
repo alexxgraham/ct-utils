@@ -1,33 +1,30 @@
 $background: #ffffff;
+$fade: #00000080;
 $primary: #0c0c0d;
 $secondary: #242424;
 $muted: #aaaaaa;
 $accent: #f7f7f7;
 $destructive: #c52a4e;
+// add for terminal component (v1)
+$yellow: #ffee00;
+$light_red: #ff5555;
+$light_blue: #5555ff;
+$light_green: #33ff33;
+$light_magenta: #ff55ff;
+$aqua: #55ffff;
 
 // $red: #aa0000;
 // $blue: #0000ff;
 // $green: #00aa00;
-// $yellow: #ffee00;
 // $magenta: #aa00aa;
 // $cyan: #00aaaa;
 
 // $gray: #555555;
 // $light_gray: #aaaaaa;
 
-// $light_red: #ff5555;
-// $light_blue: #5555ff;
-// $light_green: #33ff33;
-// $light_magenta: #ff55ff;
-// $aqua: #55ffff;
-
 .ct-utils {
 	&_text-accent {
 		color: $accent;
-	}
-
-	&_text-muted {
-		color: $muted;
 	}
 
 	&_text-destructive {
@@ -36,5 +33,21 @@ $destructive: #c52a4e;
 
 	&_text-muted {
 		color: $muted;
+	}
+
+	&_bg-fade {
+		color: $fade;
+	}
+
+	&_bg-secondary {
+		color: $secondary;
+	}
+
+	&_bg-transparent {
+		color: transparent;
+	}
+
+	&_border-muted {
+		border-color: $muted;
 	}
 }

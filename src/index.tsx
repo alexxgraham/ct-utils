@@ -21,10 +21,10 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={cn(pkgStuff.doubleClass?.main)}>
-					<span className={cn(pkgStuff.doubleClass?.secondary)}>{pkgStuff.doubleName?.[0]}</span>
-					<span className={cn(pkgStuff.doubleClass?.secondary)}>&</span>
-					<span className={cn(pkgStuff.doubleClass?.secondary)}>{pkgStuff.doubleName?.[1]}</span>
+				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={cn(pkgStuff.doubleClass.main)}>
+					<span className={cn(pkgStuff.doubleClass.secondary)}>{pkgStuff.doubleName?.[0]}</span>
+					<span className={cn(pkgStuff.doubleClass.secondary)}>&</span>
+					<span className={cn(pkgStuff.doubleClass.secondary)}>{pkgStuff.doubleName?.[1]}</span>
 				</button>
 			</li>
 		);
@@ -35,8 +35,12 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass?.main)}>
-					<span className={cn(pkgStuff.multiClass?.first, pkgStuff.multiClass?.secondary)}>{multiWord.charAt(0)}</span>
+				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass.main, pkgStuff.multiClass.colors)}>
+					{multiWord.split('').map((char, i) => (
+						<span key={i} className={cn(pkgStuff.multiClass.secondary)}>
+							{char}
+						</span>
+					))}
 				</button>
 			</li>
 		);

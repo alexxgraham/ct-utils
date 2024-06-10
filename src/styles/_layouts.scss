@@ -3,6 +3,10 @@
 		display: flex;
 	}
 
+	&_grid {
+		display: grid;
+	}
+
 	&_inline-block {
 		display: inline-block;
 	}
@@ -13,5 +17,13 @@
 
 	&_items-start {
 		align-items: flex-start;
+	}
+
+	&_justify-between {
+		justify-content: space-between;
+	}
+
+	&_place-items-center {
+		place-items: center;
 	}
 }
