@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.5
+
+### Patch Changes
+
+- 4e5b0c0: added new internal styling sheets
+
 ## 1.0.4
 
 ### Patch Changes
