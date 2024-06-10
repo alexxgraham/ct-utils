@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.6
+
+### Patch Changes
+
+- 6ec6b2d: fixed .gitignore (styles)
+
 ## 1.0.5
 
 ### Patch Changes
