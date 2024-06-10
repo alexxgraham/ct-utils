@@ -79,4 +79,4 @@ export interface PackageItems {
 
 export type PackageLibraries = { name: LIBRARIES; tabState: Tab }[];
 
-export type CommandListButtonProps = { index: number; pkgStuff: PackageItems; hoverClass: UtilClasses; setTab: TabDispatchAction };
+export type CommandListButtonProps = { index: number; pkgStuff: PackageItems; hoverClass: UtilClassValues; setTab: TabDispatchAction };
