@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.7
+
+### Patch Changes
+
+- 8c8a785: added command terminal main style classes
+
 ## 1.0.6
 
 ### Patch Changes
