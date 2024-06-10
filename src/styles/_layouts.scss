@@ -23,6 +23,10 @@
 		align-items: flex-start;
 	}
 
+	&_justify-center {
+		justify-content: center;
+	}
+
 	&_justify-between {
 		justify-content: space-between;
 	}

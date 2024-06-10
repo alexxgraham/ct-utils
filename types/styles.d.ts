@@ -6,6 +6,12 @@ export type UtilClasses =
 	| 'ct-utils_text-accent'
 	| 'ct-utils_text-destructive'
 	| 'ct-utils_text-muted'
+	//
+	| 'ct-utils_text-light_blue'
+	| 'ct-utils_text-cyan'
+	| 'ct-utils_text-red'
+	| 'ct-utils_text-yellow'
+	//
 	| 'ct-utils_bg-fade'
 	| 'ct-utils_bg-secondary'
 	| 'ct-utils_bg-transparent'
@@ -37,6 +43,7 @@ export type UtilClasses =
 	| 'ct-utils_flex-column'
 	| 'ct-utils_items-start'
 	| 'ct-utils_items-center'
+	| 'ct-utils_justify-center'
 	| 'ct-utils_justify-between'
 	| 'ct-utils_place-items-center'
 	//
