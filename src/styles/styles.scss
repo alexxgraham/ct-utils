@@ -1,6 +1,35 @@
 @use './forward' as *;
 
 .ct-utils {
+	&_cursor {
+		&-none {
+			cursor: none;
+		}
+		&-text {
+			cursor: text;
+		}
+		&-pointer {
+			cursor: pointer;
+		}
+	}
+
+	&_caret.text-muted {
+		color: $muted;
+	}
+
+	&_placeholder {
+		&.italic::placeholder {
+			font-style: italic;
+		}
+		&.text-muted::placeholder {
+			color: $muted;
+		}
+	}
+
+	&_underline-offset-8 {
+		text-underline-offset: 0.5rem;
+	}
+
 	&_hover {
 		&.underline:hover {
 			text-decoration: underline;

@@ -57,6 +57,7 @@ export type UtilClasses =
 	| 'ct-utils_pad-4'
 	| 'ct-utils_gap-x-2'
 	| 'ct-utils_pad-x-4'
+	| 'ct-utils_pad-x-10'
 	| 'ct-utils_pad-top-2'
 	//
 	| 'ct-utils_outline-none'
@@ -91,4 +92,5 @@ export type UtilClasses =
 	| 'ct-utils_hover text-red'
 	| 'ct-utils_hover text-yellow'
 	//
+	| 'ct-utils_underline-offset-8'
 	| 'ct-utils_hover ct-utils_text-colors';
