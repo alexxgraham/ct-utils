@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.13
+
+### Patch Changes
+
+- 694a099: fixed incorrect UtilClasses hover text types export
+
 ## 1.0.12
 
 ### Patch Changes
