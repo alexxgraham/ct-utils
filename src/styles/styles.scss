@@ -1,0 +1,12 @@
+@use './forward' as *;
+
+.ct-utils {
+	&_hover {
+		&.underline:hover {
+			text-decoration: underline;
+		}
+		&.text-accent:hover {
+			color: $accent;
+		}
+	}
+}

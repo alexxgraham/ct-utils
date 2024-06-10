@@ -1,0 +1,19 @@
+$radius: 0.5rem;
+
+.ct-utils {
+	&_inherit {
+		text-transform: inherit;
+	}
+
+	&_uppercase {
+		text-transform: uppercase;
+	}
+
+	&_capitalize {
+		text-transform: capitalize;
+	}
+
+	&_lowercase {
+		text-transform: lowercase;
+	}
+}

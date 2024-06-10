@@ -1,0 +1,25 @@
+.ct-utils {
+	&_outline-none {
+		outline: 0;
+	}
+
+	&_gap-x-2 {
+		column-gap: 0.5rem;
+	}
+
+	&_pad-top-2 {
+		padding-top: 0.5rem;
+	}
+
+	&_pad-x-4 {
+		padding-inline: 1rem;
+	}
+
+	&_h-8-75rem {
+		height: 8.75rem;
+	}
+
+	&_overflow-scroll {
+		overflow: scroll;
+	}
+}
