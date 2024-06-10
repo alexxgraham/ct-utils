@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.9
+
+### Patch Changes
+
+- 3812fa6: added a few new style classes
+
 ## 1.0.8
 
 ### Patch Changes
