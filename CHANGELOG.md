@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.15
+
+### Patch Changes
+
+- 0f28fe4: exported more default main style classes
+
 ## 1.0.14
 
 ### Patch Changes
