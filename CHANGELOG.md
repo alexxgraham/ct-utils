@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.11
+
+### Patch Changes
+
+- 664fee2: added new search bar styles
+
 ## 1.0.10
 
 ### Patch Changes
