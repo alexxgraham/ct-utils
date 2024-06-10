@@ -7,11 +7,6 @@ export type UtilClasses =
 	| 'ct-utils_text-destructive'
 	| 'ct-utils_text-muted'
 	//
-	| 'ct-utils_text-light_blue'
-	| 'ct-utils_text-cyan'
-	| 'ct-utils_text-red'
-	| 'ct-utils_text-yellow'
-	//
 	| 'ct-utils_bg-fade'
 	| 'ct-utils_bg-secondary'
 	| 'ct-utils_bg-transparent'
@@ -90,4 +85,10 @@ export type UtilClasses =
 	| 'ct-utils_hover underline'
 	| 'ct-utils_hover text-accent'
 	| 'ct-utils_hover text-destructive'
+	//
+	| 'ct-utils_hover text-light_blue'
+	| 'ct-utils_hover text-cyan'
+	| 'ct-utils_hover text-red'
+	| 'ct-utils_hover text-yellow'
+	//
 	| 'ct-utils_hover ct-utils_text-colors';
