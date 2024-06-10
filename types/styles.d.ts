@@ -34,11 +34,13 @@ export type UtilClasses =
 	| 'ct-utils_inline-block'
 	| 'ct-utils_flex-column'
 	| 'ct-utils_items-start'
+	| 'ct-utils_items-center'
 	| 'ct-utils_justify-between'
 	| 'ct-utils_place-items-center'
 	//
 	// Document
 	//
+	| 'ct-utils_hidden'
 	| 'ct-utils_absolute'
 	| 'ct-utils_top-0'
 	| 'ct-utils_top-20'

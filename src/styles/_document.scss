@@ -1,4 +1,8 @@
 .ct-utils {
+	&_hidden {
+		display: none;
+	}
+
 	&_absolute {
 		position: absolute;
 	}
