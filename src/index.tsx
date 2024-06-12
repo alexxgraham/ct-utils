@@ -35,9 +35,9 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass.main, pkgStuff.multiClass.colors)}>
+				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass.main, hoverClass)}>
 					{multiWord.split('').map((char, i) => (
-						<span key={i} className={cn(pkgStuff.multiClass.secondary)}>
+						<span key={i} className={cn(pkgStuff.multiClass.secondary, hoverClass)} id={cn(`${pkgStuff.multiClass.colors}_[${i}]`)}>
 							{char}
 						</span>
 					))}

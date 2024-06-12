@@ -40,7 +40,7 @@
 		&.text-destructive:hover {
 			color: $destructive;
 		}
-		&.text-light-blue:hover {
+		&.text-light_blue:hover {
 			color: $light_blue;
 		}
 		&.text-cyan:hover {
@@ -54,22 +54,22 @@
 		}
 		&.ct-utils_text-colors {
 			&:hover {
-				&:nth-child(0) {
+				&#ct-utils_text-child_0 {
 					color: $light_red;
 				}
-				&:nth-child(1) {
+				&#ct-utils_text-child_1 {
 					color: $light_blue;
 				}
-				&:nth-child(2) {
+				&#ct-utils_text-child_2 {
 					color: $light_green;
 				}
-				&:nth-child(3) {
+				&#ct-utils_text-child_3 {
 					color: $yellow;
 				}
-				&:nth-child(4) {
+				&#ct-utils_text-child_4 {
 					color: $light_magenta;
 				}
-				:nth-child(5) {
+				&#ct-utils_text-child_5 {
 					color: $aqua;
 				}
 			}
