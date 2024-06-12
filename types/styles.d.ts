@@ -88,9 +88,15 @@ export type UtilClasses =
 	| 'ct-utils_hover text-accent'
 	| 'ct-utils_hover text-destructive'
 	//
+	| 'text-light_blue'
+	| 'text-cyan'
+	| 'text-red'
+	| 'text-yellow'
+	| 'text-colors'
 	| 'ct-utils_hover text-light_blue'
 	| 'ct-utils_hover text-cyan'
 	| 'ct-utils_hover text-red'
 	| 'ct-utils_hover text-yellow'
+	| 'ct-utils_hover text-colors'
 	//
 	| 'ct-utils_underline-offset-8';
