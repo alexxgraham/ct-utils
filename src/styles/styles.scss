@@ -52,26 +52,24 @@
 		&.text-yellow:hover {
 			color: $yellow;
 		}
-		&.ct-utils_text-colors {
-			&:hover {
-				&#ct-utils_text-child_0 {
-					color: $light_red;
-				}
-				&#ct-utils_text-child_1 {
-					color: $light_blue;
-				}
-				&#ct-utils_text-child_2 {
-					color: $light_green;
-				}
-				&#ct-utils_text-child_3 {
-					color: $yellow;
-				}
-				&#ct-utils_text-child_4 {
-					color: $light_magenta;
-				}
-				&#ct-utils_text-child_5 {
-					color: $aqua;
-				}
+		&.text-colors:hover {
+			:nth-child(0) {
+				color: $light_red;
+			}
+			:nth-child(1) {
+				color: $light_blue;
+			}
+			:nth-child(2) {
+				color: $light_green;
+			}
+			:nth-child(3) {
+				color: $yellow;
+			}
+			:nth-child(4) {
+				color: $light_magenta;
+			}
+			:nth-child(5) {
+				color: $aqua;
 			}
 		}
 	}

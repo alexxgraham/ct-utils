@@ -73,7 +73,6 @@ export interface PackageItems {
 	multiClass: {
 		main: UtilClassValues;
 		secondary: UtilClassValues;
-		colors: UtilClassValues;
 	};
 }
 

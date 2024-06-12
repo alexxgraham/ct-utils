@@ -21,7 +21,7 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 			<li>
 				{' '}
 				{index}){' '}
-				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={cn(pkgStuff.doubleClass.main)}>
+				<button onClick={() => setTab(pkgStuff.doubleOpt === 'datetime' ? TimeIndexState : EmoteIndexState)} className={cn(pkgStuff.doubleClass.main, hoverClass)}>
 					<span className={cn(pkgStuff.doubleClass.secondary)}>{pkgStuff.doubleName?.[0]}</span>
 					<span className={cn(pkgStuff.doubleClass.secondary)}>&</span>
 					<span className={cn(pkgStuff.doubleClass.secondary)}>{pkgStuff.doubleName?.[1]}</span>
@@ -37,7 +37,7 @@ export const CommandListButton = ({ index, pkgStuff, hoverClass, setTab }: Comma
 				{index}){' '}
 				<button onClick={() => setTab(PaintIndexState)} className={cn(pkgStuff.multiClass.main, hoverClass)}>
 					{multiWord.split('').map((char, i) => (
-						<span key={i} className={cn(pkgStuff.multiClass.secondary, hoverClass)} id={cn(`${pkgStuff.multiClass.colors}_[${i}]`)}>
+						<span key={i} className={cn(pkgStuff.multiClass.secondary, hoverClass)}>
 							{char}
 						</span>
 					))}
