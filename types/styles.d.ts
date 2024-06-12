@@ -95,4 +95,5 @@ export type UtilClasses =
 	//
 	| 'ct-utils_underline-offset-8'
 	| 'ct-utils_hover ct-utils_text-colors'
+	| 'ct-utils_text-child_'
 	| `${string}_[${number}]`;
