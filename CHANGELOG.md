@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.18
+
+### Patch Changes
+
+- d90ae9c: attempt to fix main pack classes
+
 ## 1.0.17
 
 ### Patch Changes
