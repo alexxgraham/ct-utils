@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.19
+
+### Patch Changes
+
+- 0ac9f5d: super minor adjustment for main multiClass property type error
+
 ## 1.0.18
 
 ### Patch Changes
