@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.16
+
+### Patch Changes
+
+- 4e402f8: fixed some css issues
+
 ## 1.0.15
 
 ### Patch Changes
