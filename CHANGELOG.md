@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.20
+
+### Patch Changes
+
+- 2d5ec3e: another attempt at [colors] pack item hover class
+
 ## 1.0.19
 
 ### Patch Changes
