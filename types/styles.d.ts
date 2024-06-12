@@ -27,6 +27,7 @@ export type UtilClasses =
 	| 'ct-utils_lowercase'
 	| 'ct-utils_rounded-lg'
 	| 'ct-utils_rounded-3xl'
+	| 'ct-utils_border-x-2'
 	| 'ct-utils_border-top-2'
 	//
 	// Layouts
