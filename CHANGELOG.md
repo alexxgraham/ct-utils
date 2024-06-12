@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.21
+
+### Patch Changes
+
+- 8f36ce2: fix [color] pack type exports from styles.d.ts
+
 ## 1.0.20
 
 ### Patch Changes
