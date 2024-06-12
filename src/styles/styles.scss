@@ -54,7 +54,7 @@
 		}
 		&.ct-utils_text-colors {
 			&:hover {
-				&:first-child {
+				&:nth-child(0) {
 					color: $light_red;
 				}
 				&:nth-child(1) {
@@ -63,13 +63,13 @@
 				&:nth-child(2) {
 					color: $light_green;
 				}
-				&:nth-last-child(2) {
+				&:nth-child(3) {
 					color: $yellow;
 				}
-				&:nth-last-child(1) {
+				&:nth-child(4) {
 					color: $light_magenta;
 				}
-				:last-child {
+				:nth-child(5) {
 					color: $aqua;
 				}
 			}
