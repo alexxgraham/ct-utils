@@ -1,5 +1,15 @@
 # @ag108/ct-utils
 
+## 1.0.24
+
+### Patch Changes
+
+- 7df793f: renamed always state for text-${color} to color-${color} to minimize styling conflicts
+- 7df793f: fixed "border-top-2" class to include border style (solid)
+- 7df793f: added height & display-block classes for divider elements
+- 7df793f: added underlines class to specify always vs hover states for links & titles
+- 7df793f: added more border radius style classes, "xs" & "sm" & "md" & "xl" & "2xl" -- also matched appropriate variables to classes
+
 ## 1.0.23
 
 ### Patch Changes
