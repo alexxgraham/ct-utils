@@ -4,7 +4,7 @@ $primary: #0c0c0d;
 $secondary: #242424;
 $muted: #aaaaaa;
 $accent: #f7f7f7;
-$destructive: #c52a4e;
+$destructive: #cc2424;
 // for: terminal (v1.x)
 $red: #aa0000;
 $yellow: #ffee00;
@@ -24,10 +24,6 @@ $cyan: #00aaaa;
 .ct-utils {
 	&_text-accent {
 		color: $accent;
-	}
-
-	&_text-destructive {
-		color: $destructive;
 	}
 
 	&_text-muted {

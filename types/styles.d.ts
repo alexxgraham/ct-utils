@@ -4,7 +4,6 @@ export type UtilClasses =
 	// Colors
 	//
 	| 'ct-utils_text-accent'
-	| 'ct-utils_text-destructive'
 	| 'ct-utils_text-muted'
 	//
 	| 'ct-utils_bg-fade'
