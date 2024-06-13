@@ -64,18 +64,11 @@ export interface PackageItems {
 
 	singleOpt?: 'math' | 'filesys';
 	doubleOpt?: 'datetime' | 'symbols';
+	multiOpt?: 'txtpaint';
 
-	singleClass: UtilClassValues;
-	doubleClass: {
-		main: UtilClassValues;
-		secondary: UtilClassValues;
-	};
-	multiClass: {
-		main: UtilClassValues;
-		secondary: UtilClassValues;
-	};
+	utilityClass: UtilClassValues;
 }
 
 export type PackageLibraries = { name: LIBRARIES; tabState: Tab }[];
 
-export type CommandListButtonProps = { index: number; pkgStuff: PackageItems; hoverClass: UtilClassValues; setTab: TabDispatchAction };
+export type CommandListButtonProps = { pkgStuff: PackageItems; setTab: TabDispatchAction };
