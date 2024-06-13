@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.25
+
+### Patch Changes
+
+- 4f351ae: added bg-muted class
+
 ## 1.0.24
 
 ### Patch Changes
