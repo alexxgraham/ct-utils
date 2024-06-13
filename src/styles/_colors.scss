@@ -30,6 +30,10 @@ $cyan: #00aaaa;
 		color: $muted;
 	}
 
+	&_bg-muted {
+		background-color: $muted;
+	}
+
 	&_bg-fade {
 		background-color: $fade;
 	}
