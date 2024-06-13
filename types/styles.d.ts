@@ -92,6 +92,7 @@ export type UtilClasses =
 	| 'ct-utils_placeholder ct-utils_italic'
 	| 'ct-utils_placeholder ct-utils_text-muted'
 	//
+	| 'ct-utils_hover'
 	| 'ct-utils_hover ct-utils_underline'
 	| 'ct-utils_hover ct-utils_text-accent'
 	| 'ct-utils_hover ct-utils_text-destructive'
