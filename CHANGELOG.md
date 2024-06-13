@@ -1,5 +1,12 @@
 # @ag108/ct-utils
 
+## 1.0.27
+
+### Patch Changes
+
+- 7934197: removed CommandListButton 'index)' format
+- 7934197: fixed some class issues with CommandListButtons
+
 ## 1.0.26
 
 ### Patch Changes
