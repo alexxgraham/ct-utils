@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.26
+
+### Patch Changes
+
+- 56b2912: added ct-utils_hover class as standpoint for other classes
+
 ## 1.0.25
 
 ### Patch Changes
