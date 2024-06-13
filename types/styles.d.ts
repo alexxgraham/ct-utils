@@ -12,6 +12,12 @@ export type UtilClasses =
 	| 'ct-utils_bg-transparent'
 	| 'ct-utils_border-muted'
 	//
+	| 'ct-utils_text-light_blue'
+	| 'ct-utils_text-cyan'
+	| 'ct-utils_text-red'
+	| 'ct-utils_text-yellow'
+	| 'ct-utils_text-colors'
+	//
 	// Components
 	//
 	| 'ct-utils_base-text'
@@ -80,23 +86,12 @@ export type UtilClasses =
 	| 'ct-utils_cursor-text'
 	| 'ct-utils_cursor-pointer'
 	//
-	| 'ct-utils_caret text-muted'
-	| 'ct-utils_placeholder italic'
-	| 'ct-utils_placeholder text-muted'
+	| 'ct-utils_caret ct-utils_text-muted'
+	| 'ct-utils_placeholder ct-utils_italic'
+	| 'ct-utils_placeholder ct-utils_text-muted'
 	//
-	| 'ct-utils_hover underline'
-	| 'ct-utils_hover text-accent'
-	| 'ct-utils_hover text-destructive'
-	//
-	| 'text-light_blue'
-	| 'text-cyan'
-	| 'text-red'
-	| 'text-yellow'
-	| 'text-colors'
-	| 'ct-utils_hover text-light_blue'
-	| 'ct-utils_hover text-cyan'
-	| 'ct-utils_hover text-red'
-	| 'ct-utils_hover text-yellow'
-	| 'ct-utils_hover text-colors'
+	| 'ct-utils_hover ct-utils_underline'
+	| 'ct-utils_hover ct-utils_text-accent'
+	| 'ct-utils_hover ct-utils_text-destructive'
 	//
 	| 'ct-utils_underline-offset-8';

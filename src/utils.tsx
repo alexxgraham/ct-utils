@@ -14,7 +14,7 @@ export const PackageBreadcrumbs = ({ setTab, backTab, pkgName, library, module }
 		<div className={cn('ct-utils_uppercase', 'ct-utils_text-accent', 'ct-utils_flex', 'ct-utils_gap-x-2')}>
 			<span className={cn('ct-utils_inline-block', 'ct-utils_text-muted')}>
 				[
-				<button onClick={() => setTab(backTab)} className={cn('ct-utils_uppercase', 'ct-utils_hover underline')}>
+				<button onClick={() => setTab(backTab)} className={cn('ct-utils_uppercase', 'ct-utils_hover ct-utils_underline')}>
 					{pkgName}
 				</button>
 				]
@@ -37,7 +37,7 @@ export const PackageLinks = ({ setTab, pkgName, backTab, libName, modules }: Lin
 			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-8-75rem', 'ct-utils_overflow-scroll')}>
 				{modules.map((command, i) => (
 					<li key={i}>
-						{i + 1}) [<button className={cn('ct-utils_uppercase', 'ct-utils_hover underline', 'ct-utils_outline-none')}>{command}</button>]
+						{i + 1}) [<button className={cn('ct-utils_uppercase', 'ct-utils_hover ct-utils_underline', 'ct-utils_outline-none')}>{command}</button>]
 					</li>
 				))}
 			</ol>
@@ -46,5 +46,5 @@ export const PackageLinks = ({ setTab, pkgName, backTab, libName, modules }: Lin
 };
 
 export const PackageIndexLink = ({ setTab }: { setTab: TabDispatchAction }) => {
-	return <button className={cn('ct-utils_text-muted', 'ct-utils_hover text-accent')} onClick={() => setTab(MainState)}>{`\u003c`}</button>;
+	return <button className={cn('ct-utils_text-muted', 'ct-utils_hover ct-utils_text-accent')} onClick={() => setTab(MainState)}>{`\u003c`}</button>;
 };

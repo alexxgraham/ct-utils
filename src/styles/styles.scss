@@ -13,15 +13,15 @@
 		}
 	}
 
-	&_caret.text-muted {
+	&_caret.ct-utils_text-muted {
 		color: $muted;
 	}
 
-	&_placeholder {
-		&.italic::placeholder {
+	&_placeholder.ct-utils {
+		&_italic::placeholder {
 			font-style: italic;
 		}
-		&.text-muted::placeholder {
+		&_text-muted::placeholder {
 			color: $muted;
 		}
 	}
@@ -30,45 +30,45 @@
 		text-underline-offset: 0.5rem;
 	}
 
-	&_hover {
-		&.underline:hover {
+	&_hover.ct-utils {
+		&_underline:hover {
 			text-decoration: underline;
 		}
-		&.text-accent:hover {
+		&_text-accent:hover {
 			color: $accent;
 		}
-		&.text-destructive:hover {
+		&_text-destructive:hover {
 			color: $destructive;
 		}
-		&.text-light_blue:hover {
+		&_text-light_blue:hover {
 			color: $light_blue;
 		}
-		&.text-cyan:hover {
+		&_text-cyan:hover {
 			color: $cyan;
 		}
-		&.text-red:hover {
+		&_text-red:hover {
 			color: $red;
 		}
-		&.text-yellow:hover {
+		&_text-yellow:hover {
 			color: $yellow;
 		}
-		&.text-colors:hover {
-			:nth-child(0) {
+		&_text-colors:hover {
+			:nth-child(1) {
 				color: $light_red;
 			}
-			:nth-child(1) {
+			:nth-child(2) {
 				color: $light_blue;
 			}
-			:nth-child(2) {
+			:nth-child(3) {
 				color: $light_green;
 			}
-			:nth-child(3) {
+			:nth-child(4) {
 				color: $yellow;
 			}
-			:nth-child(4) {
+			:nth-child(5) {
 				color: $light_magenta;
 			}
-			:nth-child(5) {
+			:nth-child(6) {
 				color: $aqua;
 			}
 		}
