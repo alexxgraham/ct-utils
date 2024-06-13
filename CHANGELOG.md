@@ -1,5 +1,12 @@
 # @ag108/ct-utils
 
+## 1.0.23
+
+### Patch Changes
+
+- cba9a09: fixed 'destructive' color variable to be correct value, also removed non-hovering destructive text-class
+- cba9a09: added text-decoration-color to children of 'ct-utils_text-colors' to match color property
+
 ## 1.0.22
 
 ### Patch Changes
