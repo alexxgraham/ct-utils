@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.22
+
+### Patch Changes
+
+- 724dfce: addressed tailwind/ct-utils-styles conflicts
+
 ## 1.0.21
 
 ### Patch Changes
