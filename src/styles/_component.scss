@@ -3,6 +3,8 @@ $sm-radius: 0.125rem;
 $md-radius: 0.25rem;
 $lg-radius: 0.5rem;
 $xl-radius: 1rem;
+$xxl-radius: 1.25rem;
+$xxxl-radius: 1.5rem;
 
 .ct-utils {
 	&_base-text {
@@ -45,12 +47,32 @@ $xl-radius: 1rem;
 		text-transform: lowercase;
 	}
 
+	&_rounded-xs {
+		border-radius: $xs-radius;
+	}
+
+	&_rounded-sm {
+		border-radius: $sm-radius;
+	}
+
+	&_rounded-md {
+		border-radius: $md-radius;
+	}
+
 	&_rounded-lg {
 		border-radius: $lg-radius;
 	}
 
+	&_rounded-xl {
+		border-radius: $xl-radius;
+	}
+
+	&_rounded-2xl {
+		border-radius: $xxl-radius;
+	}
+
 	&_rounded-3xl {
-		border-radius: 1.5rem;
+		border-radius: $xxxl-radius;
 	}
 
 	&_border-x-2 {
@@ -59,6 +81,7 @@ $xl-radius: 1rem;
 	}
 
 	&_border-top-2 {
+		border-style: solid;
 		border-top: 0.125rem;
 	}
 }

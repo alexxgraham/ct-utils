@@ -11,8 +11,8 @@ export const cn = (...inputs: UtilClassValues[]) => {
 
 export const PackageBreadcrumbs = ({ setTab, backTab, pkgName, library, module }: BreadcrumbDispatchProps) => {
 	return (
-		<div className={cn('ct-utils_uppercase', 'ct-utils_text-accent', 'ct-utils_flex', 'ct-utils_gap-x-2')}>
-			<span className={cn('ct-utils_inline-block', 'ct-utils_text-muted')}>
+		<div className={cn('ct-utils_uppercase', 'ct-utils_color-accent', 'ct-utils_flex', 'ct-utils_gap-x-2')}>
+			<span className={cn('ct-utils_inline-block', 'ct-utils_color-muted')}>
 				[
 				<button onClick={() => setTab(backTab)} className={cn('ct-utils_uppercase', 'ct-utils_hover ct-utils_underline')}>
 					{pkgName}
@@ -46,5 +46,5 @@ export const PackageLinks = ({ setTab, pkgName, backTab, libName, modules }: Lin
 };
 
 export const PackageIndexLink = ({ setTab }: { setTab: TabDispatchAction }) => {
-	return <button className={cn('ct-utils_text-muted', 'ct-utils_hover ct-utils_text-accent')} onClick={() => setTab(MainState)}>{`\u003c`}</button>;
+	return <button className={cn('ct-utils_color-muted', 'ct-utils_hover ct-utils_text-accent')} onClick={() => setTab(MainState)}>{`\u003c`}</button>;
 };

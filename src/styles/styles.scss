@@ -13,6 +13,10 @@
 		}
 	}
 
+	&_underlines {
+		text-decoration: underline;
+	}
+
 	&_caret.ct-utils_text-muted {
 		color: $muted;
 	}

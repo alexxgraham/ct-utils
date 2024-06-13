@@ -3,19 +3,13 @@ export type UtilClasses =
 	//
 	// Colors
 	//
-	| 'ct-utils_text-accent'
-	| 'ct-utils_text-muted'
+	| 'ct-utils_color-accent'
+	| 'ct-utils_color-muted'
 	//
 	| 'ct-utils_bg-fade'
 	| 'ct-utils_bg-secondary'
 	| 'ct-utils_bg-transparent'
 	| 'ct-utils_border-muted'
-	//
-	| 'ct-utils_text-light_blue'
-	| 'ct-utils_text-cyan'
-	| 'ct-utils_text-red'
-	| 'ct-utils_text-yellow'
-	| 'ct-utils_text-colors'
 	//
 	// Components
 	//
@@ -30,7 +24,11 @@ export type UtilClasses =
 	| 'ct-utils_uppercase'
 	| 'ct-utils_capitalize'
 	| 'ct-utils_lowercase'
+	| 'ct-utils_rounded-xs'
+	| 'ct-utils_rounded-sm'
+	| 'ct-utils_rounded-md'
 	| 'ct-utils_rounded-lg'
+	| 'ct-utils_rounded-xl'
 	| 'ct-utils_rounded-3xl'
 	| 'ct-utils_border-x-2'
 	| 'ct-utils_border-top-2'
@@ -39,6 +37,7 @@ export type UtilClasses =
 	//
 	| 'ct-utils_flex'
 	| 'ct-utils_grid'
+	| 'ct-utils_block'
 	| 'ct-utils_inline-block'
 	//
 	| 'ct-utils_flex-column'
@@ -77,6 +76,7 @@ export type UtilClasses =
 	| 'ct-utils_h-8-75rem'
 	| 'ct-utils_h-3rem'
 	| 'ct-utils_h-2-5rem'
+	| 'ct-utils_h-p125rem'
 	| 'ct-utils_w-15rem'
 	//
 	// Main
@@ -85,6 +85,8 @@ export type UtilClasses =
 	| 'ct-utils_cursor-text'
 	| 'ct-utils_cursor-pointer'
 	//
+	| 'ct-utils_underlines'
+	//
 	| 'ct-utils_caret ct-utils_text-muted'
 	| 'ct-utils_placeholder ct-utils_italic'
 	| 'ct-utils_placeholder ct-utils_text-muted'
@@ -92,5 +94,10 @@ export type UtilClasses =
 	| 'ct-utils_hover ct-utils_underline'
 	| 'ct-utils_hover ct-utils_text-accent'
 	| 'ct-utils_hover ct-utils_text-destructive'
+	| 'ct-utils_text-light_blue'
+	| 'ct-utils_text-cyan'
+	| 'ct-utils_text-red'
+	| 'ct-utils_text-yellow'
+	| 'ct-utils_text-colors'
 	//
 	| 'ct-utils_underline-offset-8';
