@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.28
+
+### Patch Changes
+
+- 28332d8: reworked CommandListButton conditions and components
+
 ## 1.0.27
 
 ### Patch Changes
