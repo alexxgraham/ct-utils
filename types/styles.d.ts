@@ -4,6 +4,10 @@ export type UtilClasses =
 	| 'ct-utils_terminal-a1'
 	| 'ct-utils_terminal-v1'
 	| 'ct-utils_terminal-v2'
+	| 'ct-utils_ibm'
+	| 'ct-utils_mono-noto'
+	| 'ct-utils_sans-noto'
+	| 'ct-utils_serif-noto'
 	//
 	// Colors
 	//

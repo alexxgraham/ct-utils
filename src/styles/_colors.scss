@@ -85,7 +85,7 @@ $slate: #0f172a;
 		--destructive: #{$accent};
 	}
 	&_terminal-v2 {
-		--fade: #{$retro_slate};
+		--fade: #{$slate_fade};
 		--secondary: #{$slate};
 		--muted: #{$muted};
 		--accent: #{$accent};
