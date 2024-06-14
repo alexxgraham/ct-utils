@@ -18,7 +18,7 @@
 	}
 
 	&_caret.ct-utils_text-muted {
-		color: $muted;
+		color: var(--muted);
 	}
 
 	&_placeholder.ct-utils {
@@ -26,7 +26,7 @@
 			font-style: italic;
 		}
 		&_text-muted::placeholder {
-			color: $muted;
+			color: var(--muted);
 		}
 	}
 
@@ -39,48 +39,10 @@
 			text-decoration: underline;
 		}
 		&_text-accent:hover {
-			color: $accent;
+			color: var(--accent);
 		}
 		&_text-destructive:hover {
-			color: $destructive;
-		}
-		&_text-light_blue:hover {
-			color: $light_blue;
-		}
-		&_text-cyan:hover {
-			color: $cyan;
-		}
-		&_text-red:hover {
-			color: $red;
-		}
-		&_text-yellow:hover {
-			color: $yellow;
-		}
-		&_text-colors:hover {
-			:nth-child(1) {
-				color: $light_red;
-				text-decoration-color: $light_red;
-			}
-			:nth-child(2) {
-				color: $light_blue;
-				text-decoration-color: $light_blue;
-			}
-			:nth-child(3) {
-				color: $light_green;
-				text-decoration-color: $light_green;
-			}
-			:nth-child(4) {
-				color: $yellow;
-				text-decoration-color: $yellow;
-			}
-			:nth-child(5) {
-				color: $light_magenta;
-				text-decoration-color: $light_magenta;
-			}
-			:nth-child(6) {
-				color: $aqua;
-				text-decoration-color: $aqua;
-			}
+			color: var(--destructive);
 		}
 	}
 }

@@ -3,6 +3,7 @@ export type UtilClasses =
 	//
 	| 'ct-utils_terminal-a1'
 	| 'ct-utils_terminal-v1'
+	| 'ct-utils_terminal-v2'
 	//
 	// Colors
 	//

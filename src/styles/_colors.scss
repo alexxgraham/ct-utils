@@ -1,12 +1,8 @@
-$background: #ffffff;
-$fade: #00000080;
-$primary: #0c0c0d;
-$secondary: #242424;
-$muted: #aaaaaa;
-$accent: #f7f7f7;
-$destructive: #cc2424;
-// for: terminal (v1.x)
+// colors
 $red: #aa0000;
+$blue: #0000ff;
+$green: #00aa00;
+$magenta: #aa00aa;
 $yellow: #ffee00;
 $light_red: #ff5555;
 $light_blue: #5555ff;
@@ -15,12 +11,21 @@ $light_magenta: #ff55ff;
 $aqua: #55ffff;
 $cyan: #00aaaa;
 
+// terminal_a1
+$fade: #00000080;
+$primary: #0c0c0d;
+$secondary: #242424;
+$muted: #aaaaaa;
+$accent: #f7f7f7;
+$destructive: #cc2424;
+
+// terminal_v1
+$retro_fade: #0037da25;
 $retro_blue: #0037da;
-// $blue: #0000ff;
-// $green: #00aa00;
-// $magenta: #aa00aa;
-// $gray: #555555;
-// $light_gray: #aaaaaa;
+
+// terminal_v2
+$slate_fade: #0f172a50;
+$slate: #0f172a;
 
 :root {
 	--fade: #{$fade};
@@ -37,13 +42,54 @@ $retro_blue: #0037da;
 		--muted: #{$muted};
 		--accent: #{$accent};
 		--destructive: #{$destructive};
+		&.ct-utils_hover.ct-utils {
+			&_text-light_blue:hover {
+				color: $light_blue;
+			}
+			&_text-cyan:hover {
+				color: $cyan;
+			}
+			&_text-red:hover {
+				color: $red;
+			}
+			&_text-yellow:hover {
+				color: $yellow;
+			}
+			&_text-colors:hover {
+				:nth-child(1) {
+					color: $light_red;
+				}
+				:nth-child(2) {
+					color: $light_blue;
+				}
+				:nth-child(3) {
+					color: $light_green;
+				}
+				:nth-child(4) {
+					color: $yellow;
+				}
+				:nth-child(5) {
+					color: $light_magenta;
+				}
+				:nth-child(6) {
+					color: $aqua;
+				}
+			}
+		}
 	}
 	&_terminal-v1 {
-		--fade: #{$fade};
+		--fade: #{$retro_fade};
 		--secondary: #{$retro_blue};
 		--muted: #{$muted};
 		--accent: #{$accent};
 		--destructive: #{$accent};
+	}
+	&_terminal-v2 {
+		--fade: #{$retro_slate};
+		--secondary: #{$slate};
+		--muted: #{$muted};
+		--accent: #{$accent};
+		--destructive: #{$destructive};
 	}
 
 	&_color-accent {

@@ -76,12 +76,14 @@ $xxxl-radius: 1.5rem;
 	}
 
 	&_border-x-2 {
-		border-left: 0.125rem;
-		border-right: 0.125rem;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-left-width: 0.125rem;
+		border-right-width: 0.125rem;
 	}
 
 	&_border-top-2 {
-		border-style: solid;
-		border-top: 0.125rem;
+		border-top-style: solid;
+		border-top-width: 0.125rem;
 	}
 }

@@ -1,0 +1,45 @@
+.ct-utils_ibm {
+	font-family: 'IBM';
+}
+.ct-utils_mono-noto {
+	font-family: 'Mononoto';
+}
+.ct-utils_sans-noto {
+	font-family: 'Sansnoto';
+	& .italic {
+		font-family: 'Sansnoto Italic';
+	}
+}
+.ct-utils_serif-noto {
+	font-family: 'Times';
+	& .italic {
+		font-family: 'Times Italic';
+	}
+}
+
+@font-face {
+	font-family: 'IBM';
+	src: url('./fonts/IBM_VGA.woff');
+}
+@font-face {
+	font-family: 'Sansnoto';
+	src: url('./fonts/noto/Sans.ttf');
+}
+@font-face {
+	font-family: 'Sansnoto Italic';
+	font-style: italic;
+	src: url('./fonts/noto/Sans-Italic.ttf');
+}
+@font-face {
+	font-family: 'Mononoto';
+	src: url('./fonts/noto/Mono.ttf');
+}
+@font-face {
+	font-family: 'Times';
+	src: url('./fonts/noto/Serif.ttf');
+}
+@font-face {
+	font-family: 'Times Italic';
+	font-style: italic;
+	src: url('./fonts/noto/Serif-Italic.ttf');
+}
