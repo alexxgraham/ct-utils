@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.30
+
+### Patch Changes
+
+- 60bf8ee: removed extra '-' from root vars
+
 ## 1.0.29
 
 ### Patch Changes
