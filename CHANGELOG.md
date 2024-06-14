@@ -1,5 +1,13 @@
 # @ag108/ct-utils
 
+## 1.0.31
+
+### Patch Changes
+
+- e5389ec: added v2 theme
+- e5389ec: added font theme styling support
+- e5389ec: specified (ct-utils_terminal-a1 ct-utils_hover) theme classes
+
 ## 1.0.30
 
 ### Patch Changes
