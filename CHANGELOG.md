@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.32
+
+### Patch Changes
+
+- 9ab923e: fixed slate_fade class issue, and exported more font types from styles.d.ts
+
 ## 1.0.31
 
 ### Patch Changes
