@@ -1,6 +1,9 @@
 export type UtilClassValues = UtilClasses[] | UtilClasses;
 export type UtilClasses =
 	//
+	| 'ct-utils_terminal-a1'
+	| 'ct-utils_terminal-v1'
+	//
 	// Colors
 	//
 	| 'ct-utils_color-accent'

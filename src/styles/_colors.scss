@@ -15,31 +15,55 @@ $light_magenta: #ff55ff;
 $aqua: #55ffff;
 $cyan: #00aaaa;
 
+$retro_blue: #0037da;
 // $blue: #0000ff;
 // $green: #00aa00;
 // $magenta: #aa00aa;
 // $gray: #555555;
 // $light_gray: #aaaaaa;
 
+:root {
+	--fade: #{$fade};
+	--secondary: #{$secondary};
+	--muted: #{$muted};
+	--accent: #{$accent};
+	--destructive: #{$destructive};
+}
+
 .ct-utils {
+	&_terminal-a1 {
+		--fade: #{$fade};
+		--secondary: #{$secondary};
+		--muted: #{$muted};
+		--accent: #{$accent};
+		--destructive: #{$destructive};
+	}
+	&_terminal-v1 {
+		--fade: #{$fade};
+		--secondary: #{$retro_blue};
+		--muted: #{$muted};
+		--accent: #{$accent};
+		--destructive: #{$accent};
+	}
+
 	&_color-accent {
-		color: $accent;
+		color: var(---accent);
 	}
 
 	&_color-muted {
-		color: $muted;
+		color: var(---muted);
 	}
 
 	&_bg-muted {
-		background-color: $muted;
+		background-color: var(---muted);
 	}
 
 	&_bg-fade {
-		background-color: $fade;
+		background-color: var(---fade);
 	}
 
 	&_bg-secondary {
-		background-color: $secondary;
+		background-color: var(---secondary);
 	}
 
 	&_bg-transparent {
@@ -47,6 +71,6 @@ $cyan: #00aaaa;
 	}
 
 	&_border-muted {
-		border-color: $muted;
+		border-color: var(---muted);
 	}
 }
