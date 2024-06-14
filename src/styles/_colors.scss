@@ -47,23 +47,23 @@ $retro_blue: #0037da;
 	}
 
 	&_color-accent {
-		color: var(---accent);
+		color: var(--accent);
 	}
 
 	&_color-muted {
-		color: var(---muted);
+		color: var(--muted);
 	}
 
 	&_bg-muted {
-		background-color: var(---muted);
+		background-color: var(--muted);
 	}
 
 	&_bg-fade {
-		background-color: var(---fade);
+		background-color: var(--fade);
 	}
 
 	&_bg-secondary {
-		background-color: var(---secondary);
+		background-color: var(--secondary);
 	}
 
 	&_bg-transparent {
@@ -71,6 +71,6 @@ $retro_blue: #0037da;
 	}
 
 	&_border-muted {
-		border-color: var(---muted);
+		border-color: var(--muted);
 	}
 }
