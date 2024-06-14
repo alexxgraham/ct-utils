@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.29
+
+### Patch Changes
+
+- 9d05862: added new color variables for theming support
+
 ## 1.0.28
 
 ### Patch Changes
