@@ -1,5 +1,12 @@
 # @ag108/ct-utils
 
+## 1.0.33
+
+### Patch Changes
+
+- f3c28c1: ammended \_forward.scss to include forwarding for the font stylesets
+- f3c28c1: small changes to README, contributing & docs markdown file formatting & fixed broken urls
+
 ## 1.0.32
 
 ### Patch Changes
