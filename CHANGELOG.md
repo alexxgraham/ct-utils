@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.34
+
+### Patch Changes
+
+- cf6d1ef: moved fonts to src to resolve import issues from styles.css
+
 ## 1.0.33
 
 ### Patch Changes
