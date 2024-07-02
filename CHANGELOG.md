@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.36
+
+### Patch Changes
+
+- 40ae3c5: fixed '.' to be '&' for z-index classes in \_document.scss
+
 ## 1.0.35
 
 ### Patch Changes
