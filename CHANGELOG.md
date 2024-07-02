@@ -1,5 +1,11 @@
 # @ag108/ct-utils
 
+## 1.0.35
+
+### Patch Changes
+
+- 6898d3d: added z-index styling classes
+
 ## 1.0.34
 
 ### Patch Changes
