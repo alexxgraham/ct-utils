@@ -1,23 +1,82 @@
-.ct-utils_text-accent {
-  color: #f7f7f7;
+:root {
+  --fade: rgba(0, 0, 0, 0.5019607843);
+  --secondary: #242424;
+  --muted: #aaaaaa;
+  --accent: #f7f7f7;
+  --destructive: #cc2424;
 }
-.ct-utils_text-destructive {
-  color: #c52a4e;
+
+.ct-utils_terminal-a1 {
+  --fade: rgba(0, 0, 0, 0.5019607843);
+  --secondary: #242424;
+  --muted: #aaaaaa;
+  --accent: #f7f7f7;
+  --destructive: #cc2424;
 }
-.ct-utils_text-muted {
-  color: #aaaaaa;
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-light_blue:hover {
+  color: #5555ff;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-cyan:hover {
+  color: #00aaaa;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-red:hover {
+  color: #aa0000;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-yellow:hover {
+  color: #ffee00;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(1) {
+  color: #ff5555;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(2) {
+  color: #5555ff;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(3) {
+  color: #33ff33;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(4) {
+  color: #ffee00;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(5) {
+  color: #ff55ff;
+}
+.ct-utils_terminal-a1.ct-utils_hover.ct-utils_text-colors:hover :nth-child(6) {
+  color: #55ffff;
+}
+.ct-utils_terminal-v1 {
+  --fade: rgba(0, 55, 218, 0.1450980392);
+  --secondary: #0037da;
+  --muted: #aaaaaa;
+  --accent: #f7f7f7;
+  --destructive: #f7f7f7;
+}
+.ct-utils_terminal-v2 {
+  --fade: rgba(15, 23, 42, 0.3137254902);
+  --secondary: #0f172a;
+  --muted: #aaaaaa;
+  --accent: #f7f7f7;
+  --destructive: #cc2424;
+}
+.ct-utils_color-accent {
+  color: var(--accent);
+}
+.ct-utils_color-muted {
+  color: var(--muted);
+}
+.ct-utils_bg-muted {
+  background-color: var(--muted);
 }
 .ct-utils_bg-fade {
-  background-color: rgba(0, 0, 0, 0.5019607843);
+  background-color: var(--fade);
 }
 .ct-utils_bg-secondary {
-  background-color: #242424;
+  background-color: var(--secondary);
 }
 .ct-utils_bg-transparent {
   background-color: transparent;
 }
 .ct-utils_border-muted {
-  border-color: #aaaaaa;
+  border-color: var(--muted);
 }
 
 .ct-utils_base-text {
@@ -50,20 +109,71 @@
 .ct-utils_lowercase {
   text-transform: lowercase;
 }
+.ct-utils_rounded-xs {
+  border-radius: 0.0625rem;
+}
+.ct-utils_rounded-sm {
+  border-radius: 0.125rem;
+}
+.ct-utils_rounded-md {
+  border-radius: 0.25rem;
+}
 .ct-utils_rounded-lg {
   border-radius: 0.5rem;
+}
+.ct-utils_rounded-xl {
+  border-radius: 1rem;
+}
+.ct-utils_rounded-2xl {
+  border-radius: 1.25rem;
 }
 .ct-utils_rounded-3xl {
   border-radius: 1.5rem;
 }
 .ct-utils_border-x-2 {
-  border-left: 0.125rem;
-  border-right: 0.125rem;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-width: 0.125rem;
+  border-right-width: 0.125rem;
 }
 .ct-utils_border-top-2 {
-  border-top: 0.125rem;
+  border-top-style: solid;
+  border-top-width: 0.125rem;
 }
 
+.ct-utils ._-z-50 {
+  z-index: -50;
+}
+.ct-utils ._-z-40 {
+  z-index: -40;
+}
+.ct-utils ._-z-30 {
+  z-index: -30;
+}
+.ct-utils ._-z-20 {
+  z-index: -20;
+}
+.ct-utils ._-z-10 {
+  z-index: -10;
+}
+.ct-utils ._z-0 {
+  z-index: 0;
+}
+.ct-utils ._z-10 {
+  z-index: 10;
+}
+.ct-utils ._z-20 {
+  z-index: 20;
+}
+.ct-utils ._z-30 {
+  z-index: 30;
+}
+.ct-utils ._z-40 {
+  z-index: 40;
+}
+.ct-utils ._z-50 {
+  z-index: 50;
+}
 .ct-utils_hidden {
   display: none;
 }
@@ -130,18 +240,75 @@
 .ct-utils_h-2-5rem {
   height: 2.5rem;
 }
+.ct-utils_h-p125rem {
+  height: 0.125rem;
+}
 .ct-utils_w-15rem {
   width: 15rem;
 }
 
+.ct-utils_ibm {
+  font-family: "IBM";
+}
+
+.ct-utils_mono-noto {
+  font-family: "Mononoto";
+}
+
+.ct-utils_sans-noto {
+  font-family: "Sansnoto";
+}
+.ct-utils_sans-noto .italic {
+  font-family: "Sansnoto Italic";
+}
+
+.ct-utils_serif-noto {
+  font-family: "Times";
+}
+.ct-utils_serif-noto .italic {
+  font-family: "Times Italic";
+}
+
+@font-face {
+  font-family: "IBM";
+  src: url("./fonts/IBM_VGA.woff");
+}
+@font-face {
+  font-family: "Sansnoto";
+  src: url("./fonts/noto/Sans.ttf");
+}
+@font-face {
+  font-family: "Sansnoto Italic";
+  font-style: italic;
+  src: url("./fonts/noto/Sans-Italic.ttf");
+}
+@font-face {
+  font-family: "Mononoto";
+  src: url("./fonts/noto/Mono.ttf");
+}
+@font-face {
+  font-family: "Times";
+  src: url("./fonts/noto/Serif.ttf");
+}
+@font-face {
+  font-family: "Times Italic";
+  font-style: italic;
+  src: url("./fonts/noto/Serif-Italic.ttf");
+}
 .ct-utils_flex {
   display: flex;
 }
 .ct-utils_grid {
   display: grid;
 }
+.ct-utils_block {
+  display: block;
+}
 .ct-utils_inline-block {
   display: inline-block;
+}
+.ct-utils_inline-flex {
+  display: inline-flex;
 }
 .ct-utils_flex-column {
   flex-direction: column;
@@ -174,56 +341,29 @@
 .ct-utils_cursor-pointer {
   cursor: pointer;
 }
-.ct-utils_caret.text-muted {
-  color: #aaaaaa;
+.ct-utils_underlines {
+  text-decoration: underline;
 }
-.ct-utils_placeholder.italic::placeholder {
+.ct-utils_caret.ct-utils_text-muted {
+  color: var(--muted);
+}
+.ct-utils_placeholder.ct-utils_italic::placeholder {
   font-style: italic;
 }
-.ct-utils_placeholder.text-muted::placeholder {
-  color: #aaaaaa;
+.ct-utils_placeholder.ct-utils_text-muted::placeholder {
+  color: var(--muted);
 }
 .ct-utils_underline-offset-8 {
   text-underline-offset: 0.5rem;
 }
-.ct-utils_hover.underline:hover {
+.ct-utils_hover.ct-utils_underline:hover {
   text-decoration: underline;
 }
-.ct-utils_hover.text-accent:hover {
-  color: #f7f7f7;
+.ct-utils_hover.ct-utils_text-accent:hover {
+  color: var(--accent);
 }
-.ct-utils_hover.text-destructive:hover {
-  color: #c52a4e;
-}
-.ct-utils_hover.text-light-blue:hover {
-  color: #5555ff;
-}
-.ct-utils_hover.text-cyan:hover {
-  color: #00aaaa;
-}
-.ct-utils_hover.text-red:hover {
-  color: #aa0000;
-}
-.ct-utils_hover.text-yellow:hover {
-  color: #ffee00;
-}
-.ct-utils_hover.ct-utils_text-colors:hover:first-child {
-  color: #ff5555;
-}
-.ct-utils_hover.ct-utils_text-colors:hover:nth-child(1) {
-  color: #5555ff;
-}
-.ct-utils_hover.ct-utils_text-colors:hover:nth-child(2) {
-  color: #33ff33;
-}
-.ct-utils_hover.ct-utils_text-colors:hover:nth-last-child(2) {
-  color: #ffee00;
-}
-.ct-utils_hover.ct-utils_text-colors:hover:nth-last-child(1) {
-  color: #ff55ff;
-}
-.ct-utils_hover.ct-utils_text-colors:hover :last-child {
-  color: #55ffff;
+.ct-utils_hover.ct-utils_text-destructive:hover {
+  color: var(--destructive);
 }
 
 /*# sourceMappingURL=styles.css.map */

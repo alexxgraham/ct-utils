@@ -60,6 +60,17 @@ export type UtilClasses =
 	//
 	// Document
 	//
+	| 'ct-utils_-z-50'
+	| 'ct-utils_-z-40'
+	| 'ct-utils_-z-30'
+	| 'ct-utils_-z-20'
+	| 'ct-utils_-z-10'
+	| 'ct-utils_z-0'
+	| 'ct-utils_z-10'
+	| 'ct-utils_z-20'
+	| 'ct-utils_z-30'
+	| 'ct-utils_z-40'
+	| 'ct-utils_z-50'
 	| 'ct-utils_hidden'
 	| 'ct-utils_absolute'
 	| 'ct-utils_top-0'

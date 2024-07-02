@@ -1,4 +1,48 @@
 .ct-utils {
+	._-z-50 {
+		z-index: -50;
+	}
+
+	._-z-40 {
+		z-index: -40;
+	}
+
+	._-z-30 {
+		z-index: -30;
+	}
+
+	._-z-20 {
+		z-index: -20;
+	}
+
+	._-z-10 {
+		z-index: -10;
+	}
+
+	._z-0 {
+		z-index: 0;
+	}
+
+	._z-10 {
+		z-index: 10;
+	}
+
+	._z-20 {
+		z-index: 20;
+	}
+
+	._z-30 {
+		z-index: 30;
+	}
+
+	._z-40 {
+		z-index: 40;
+	}
+
+	._z-50 {
+		z-index: 50;
+	}
+
 	&_hidden {
 		display: none;
 	}
